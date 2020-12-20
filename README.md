@@ -6,9 +6,9 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: 
+**In 1-2 sentences, explain the problem statement: **
 
-"This dataset contains data about bank marketing. It contains data of direct phone call marketing, taken from the University of California, Irvine machine learning repository (link: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.)"**
+"This dataset contains data about bank marketing. It contains data of direct phone call marketing, taken from the University of California, Irvine machine learning repository (link: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.)"
 
 **In 1-2 sentences, explain the solution: e.g. 
 
