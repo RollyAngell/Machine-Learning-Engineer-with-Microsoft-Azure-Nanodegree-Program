@@ -6,12 +6,19 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+**In 1-2 sentences, explain the problem statement: 
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+"This dataset contains data about bank marketing. It contains data of direct phone call marketing, taken from the University of California, Irvine machine learning repository (link: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.)"**
+
+**In 1-2 sentences, explain the solution: e.g. 
+
+"The best performing model was a VotingEnsemble obtained through AutoML with the primary metric accuracy as 0.947404."**
+
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+
+Following steps first I create a compute cluster and configure the training. Next the data is one hor encoded and split into train and test sets.
 
 **What are the benefits of the parameter sampler you chose?**
 
