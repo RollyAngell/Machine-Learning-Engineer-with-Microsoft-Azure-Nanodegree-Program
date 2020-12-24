@@ -20,7 +20,7 @@ The dataset gives you information about a marketing campaign of a financial inst
  --> input features: principal inputs like age, job, marital, education, housing, loan, contact, month, day_of_weed, duration, campaign, pdays, previous, poutcome, emp.var.rate, nr.employed
  --> target column: y - has the client subscribed a term deposit? (binary: 'yes','no')
  
-* Hyperparameter Tuning: Parameters used C ((inverse regularization parameter)) and max_iter (number of maximun iteractions).
+* Hyperparameter Tuning: Parameters used C (inverse regularization parameter) and max_iter (number of maximun iteractions).
 
 * Accuracy is chosen as the primary metric and logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.(in this case categorical dependent variable)
 
