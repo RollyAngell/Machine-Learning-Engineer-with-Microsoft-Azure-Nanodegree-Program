@@ -8,9 +8,7 @@ This model is then compared to an Azure AutoML run.
 ## Summary
 **In 1-2 sentences, explain the problem statement: **
 
-Following steps first I create a compute cluster and configure the training. The goald start creating a compute cluster and configuring the training run by creating a HyperDriveConfig and AutoMLConfig for comparison. At the end run was submitted and the best model was saved and registered.
-
-The best performing model was a VotingEnsemble obtained through AutoML with the primary metric accuracy as 0.947404.
+The objective would start to create a compute cluster and configure the training run by creating a HyperDriveConfig and AutoMLConfig to compare. In the end, the run was submitted and the best model was saved and recorded.
 
 ## Scikit-learn Pipeline
 
