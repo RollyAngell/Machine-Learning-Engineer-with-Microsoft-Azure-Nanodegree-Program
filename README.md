@@ -12,6 +12,8 @@ The objective would start to create a compute cluster and configure the training
 
 ## Scikit-learn Pipeline
 
+First I modified the train.py file to clean up and prepare for data splitting into test and training sets, then I use Azure Machine Learning to create a compute cluster and configure the HyperDrive package to run some experiments at the same time to get the appropriate set of hyperparameters to get the best metric. After that I use Logistic Regression as a classification algorithm and then I choose precision as the main metric and finally we save and record the model.
+
 * DATA: This dataset contains data of a Portuguese banking institution. It contains data of direct phone call marketing, taken from the University of California, Irvine machine learning repository (link: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.) 
 The dataset gives you information about a marketing campaign of a financial institution in which you will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank.
  
@@ -39,6 +41,15 @@ delay_evaluation: delays the first policy evaluation for a specified number of i
 
 We can see that VotingEnsemble algorithm show the best model with an accuracy of 0.914723. It involves making a prediction that is the average of multiple other regression models.
 
+AUC_macro = '0.947407' it mean the proportion of correctly classified samples
+Log_loss = '0.21363' it mean the negative-log likelihood of a logistic model
+matthews_correlation ='0.54869'
+precision_score_macro = '0.799512'
+precision_score_micro  = '0.914723' (close to 1)
+precision_score_weighted = '0.91089'
+
+Hyperparameters:
+max_iter=100, n_jobs=1, penalty='l1', random_state'None'
 
 ## Pipeline comparison
 
